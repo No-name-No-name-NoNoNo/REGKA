@@ -1,14 +1,12 @@
-# Robust and Efficient Group Key Agreement Scheme Based on Cross-layer Design for UANET
+# A Cross-Layer Design: Reliable Group Key Agreement with Propagation Status Awareness for UANET
 
-*Version 1.1 – July 2025*
+*Version 1.1 – January 2026*
 
 > **REGKA** is the reference implementation and NS‑3 simulation suite accompanying our paper:
-> 
-> **“Robust and Efficient Group Key Agreement Scheme Based on Cross-layer Design for UANET”**  *(submitted to NDSS 2026).*
 
 ## Description
 
-In this paper, our core work is to design a *Robust and Efficient Group Key Agreement Scheme Based on Cross-layer Design* to improve the success rate of group key agreement in UANET with unstable links. The core idea is to drive message propagation at the transmission layer according to the requirements of group key agreement. Specifically, we let each UAV perceive the key contribution reception status at the protocol layer to guide the transmission layer in forwarding the key contribution to the required UAVs, thereby avoiding unnecessary redundant forwardings. Furthermore, we take advantage of the aggregability of key contributions to enable a UAV to aggregate multiple key contribution messages at the protocol layer and send them in a single packet, further reducing the load of the transmission layer. This top‑down collaborative design enhances the propagation efficiency of key contributions in UANET, achieving higher group key agreement success rates and lower communication overhead.
+In this paper, our core work is to design a *A Cross-Layer Design: Reliable Group Key Agreement with Propagation Status Awareness for UANET* to improve the success rate of group key agreement in UANET with unstable links. The core idea is to drive message propagation at the transmission layer according to the requirements of group key agreement. Specifically, we let each UAV perceive the key contribution reception status at the protocol layer to guide the transmission layer in forwarding the key contribution to the required UAVs, thereby avoiding unnecessary redundant forwardings. Furthermore, we take advantage of the aggregability of key contributions to enable a UAV to aggregate multiple key contribution messages at the protocol layer and send them in a single packet, further reducing the load of the transmission layer. This top‑down collaborative design enhances the propagation efficiency of key contributions in UANET, achieving higher group key agreement success rates and lower communication overhead.
 
 These codes are to verify the performance of the proposed scheme. Specifically, we use three quantitative analyses that measure: (i) the group key agreement success rate, (ii) the group key agreement delay, (iii) the communication overhead, (iv) the key contribution propagation efficiency and (v) the group key agreement energy consumption.
 
